@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4b4ebe678960e3d8e039ad931faf06d9",
+    "content-hash": "d9111b34cb9c2c3f714111f5cc7c2358",
     "packages": [
         {
             "name": "ausi/slug-generator",
@@ -3189,6 +3189,71 @@
                 "source": "https://github.com/KnpLabs/KnpTimeBundle/tree/v1.20.0"
             },
             "time": "2022-10-11T15:32:58+00:00"
+        },
+        {
+            "name": "laemmi/contao-module-ctscore",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Laemmi/contao-module-ctscore.git",
+                "reference": "21e2e4b52e4f883669d91f4eb710f412086a6e39"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Laemmi/contao-module-ctscore/zipball/21e2e4b52e4f883669d91f4eb710f412086a6e39",
+                "reference": "21e2e4b52e4f883669d91f4eb710f412086a6e39",
+                "shasum": ""
+            },
+            "require": {
+                "contao/core-bundle": "^4.13",
+                "php": "^8.1"
+            },
+            "conflict": {
+                "contao/core": "*",
+                "contao/manager-plugin": "<2.0 || >=3.0"
+            },
+            "require-dev": {
+                "contao/manager-plugin": "^2.11"
+            },
+            "type": "contao-module",
+            "extra": {
+                "contao-manager-plugin": "Laemmi\\ContaoCtsCoreBundle\\ContaoManager\\Plugin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Laemmi\\ContaoCtsCoreBundle\\": "src/"
+                },
+                "classmap": [
+                    "src/Resources/contao/"
+                ],
+                "exclude-from-classmap": [
+                    "src/Resources/contao/config/",
+                    "src/Resources/contao/dca/",
+                    "src/Resources/contao/languages/",
+                    "src/Resources/contao/templates/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Lämmlein",
+                    "email": "laemmi@spacerabbit.de",
+                    "homepage": "https://www.spacerabbit.de",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Module for Contao WebCMS",
+            "keywords": [
+                "contao"
+            ],
+            "support": {
+                "issues": "https://github.com/Laemmi/contao-module-ctscore/issues",
+                "source": "https://github.com/Laemmi/contao-module-ctscore/tree/1.0.0"
+            },
+            "time": "2023-11-04T15:06:58+00:00"
         },
         {
             "name": "lcobucci/clock",
