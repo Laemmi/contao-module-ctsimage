@@ -46,6 +46,6 @@ $GLOBALS['TL_DCA'][$strName]['fields']['ctsimagetextalign'] = array
     'inputType'               => 'select',
     'options'                 => array('center','left','right'),
     'eval'                    => array('tl_class' => 'w50', 'alwaysSave' => true),
-    'sql'                     => "text NOT NULL"
+    'sql'                     => "text NULL"
 );
 
